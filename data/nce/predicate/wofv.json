@@ -1,0 +1,16 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "slots": {
+        "weapon.*": {
+          "components": {
+            "minecraft:enchantments": {
+              "nce:whisper_of_the_void": 1
+            }
+          }
+        }
+      }
+    }
+  }
+  
