@@ -1,0 +1,10 @@
+{  
+    "values" : [
+        "data:tick",
+        "data:weapons/init",
+        "data:stats/init",
+        "data:rounds/init",
+        "data:gui/init",
+        "data:equipment/init"
+    ]
+}
