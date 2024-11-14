@@ -1,0 +1,34 @@
+{
+    "description": "Glass Cutter",
+    "supported_items": "shears",
+    "primary_items": "shears",
+    "weight": 5,
+    "max_level": 3,
+    "min_cost": {
+      "base": 6,
+      "per_level_above_first": 3
+    },
+    "max_cost": {
+      "base": 21,
+      "per_level_above_first": 3
+    },
+    "anvil_cost": 1,
+    "slots": [
+      "hand"
+    ],
+    "effects": {
+      "minecraft:attributes": [
+        {
+          "id": "glasscutter",
+          "attribute": "minecraft:attack_speed",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 0.1,
+            "per_level_above_first": 0.1
+          },
+          "operation": "add_multiplied_base"
+        }
+      ]
+    }
+  }
+  
