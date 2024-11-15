@@ -1,5 +1,8 @@
 {
-    "description": "Magnet",
+    "description": {
+      "translate": "enchantment.nce.magnet",
+      "fallback": "Magnet"
+    },
     "supported_items": "#minecraft:enchantable/mining",
     "primary_items": "#minecraft:enchantable/mining",
     "weight": 5,

@@ -1,5 +1,8 @@
 {
-    "description": "Second Breath",
+    "description": {
+        "translate": "enchantment.nce.second_breath",
+        "fallback": "Second Breath"
+        },
     "supported_items": "#minecraft:foot_armor",
     "primary_items": "#minecraft:foot_armor",
     "weight": 5,

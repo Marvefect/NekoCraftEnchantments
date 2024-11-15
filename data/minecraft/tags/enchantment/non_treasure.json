@@ -1,11 +1,7 @@
 {
     "values": [
         "nce:fast_swing",
-        "nce:magnet",
-        "nce:second_breath",
-        "nce:whisper_of_the_void",
         "nce:crushing",
-        "nce:long_hands",
-        "nce:smelting"
+        "nce:long_hands"
     ]
 }

@@ -1,5 +1,8 @@
 {
-    "description": "Long Hands",
+    "description": {
+      "translate": "enchantment.nce.long_hands",
+      "fallback": "Long Hands"
+    },
     "supported_items": "mace",
     "primary_items": "mace",
     "weight": 5,

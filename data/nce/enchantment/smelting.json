@@ -1,5 +1,8 @@
 {
-    "description": "Smelting",
+    "description": {
+      "translate": "enchantment.nce.smelting",
+      "fallback": "Smelting"
+    },
     "exclusive_set": "minecraft:silk_touch",
     "supported_items": "#minecraft:pickaxes",
     "primary_items": "#minecraft:pickaxes",

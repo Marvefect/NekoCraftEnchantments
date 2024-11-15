@@ -1,5 +1,8 @@
 {
-  "description": "Fast Swing",
+  "description": {
+    "translate": "enchantment.nce.fast_swing",
+    "fallback": "Fast Swing"
+    },
   "supported_items": "#minecraft:enchantable/sharp_weapon",
   "primary_items": "#minecraft:enchantable/sharp_weapon",
   "weight": 5,

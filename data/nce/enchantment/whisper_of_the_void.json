@@ -1,5 +1,8 @@
 {
-    "description": "Whisper of The Void",
+    "description": {
+      "translate": "enchantment.nce.whisper_of_the_void",
+      "fallback": "Whisper Of The Void"
+    },
     "supported_items": "shield",
     "primary_items": "shield",
     "weight": 5,

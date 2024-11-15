@@ -1,5 +1,8 @@
 {
-    "description": "Crushing",
+    "description": {
+      "translate": "enchantment.nce.crushing",
+      "fallback": "Crushing"
+    },
     "supported_items": "#minecraft:axes",
     "primary_items": "#minecraft:axes",
     "weight": 5,
