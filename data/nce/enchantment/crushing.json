@@ -5,6 +5,7 @@
     },
     "supported_items": "#minecraft:axes",
     "primary_items": "#minecraft:axes",
+    "exclusive_set": "nce:fast_swing",
     "weight": 5,
     "max_level": 2,
     "min_cost": {
