@@ -24,7 +24,7 @@
         {
           "id": "curse_of_knockback",
           "attribute": "minecraft:knockback_resistance",
-          "amount": -0.15,
+          "amount": -0.45,
           "operation": "add_multiplied_base"
         }
       ]
