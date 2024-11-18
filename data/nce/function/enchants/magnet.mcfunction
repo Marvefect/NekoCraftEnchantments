@@ -1,2 +1,1 @@
-execute at @s as @e[type=item,distance=..5] run tp ~ ~ ~ 
-execute at @s as @e[type=experience_orb,distance=..5] run tp ~ ~ ~ 
+execute at @s as @e[type=item,distance=..7] at @s facing entity @p[nbt={SelectedItem:{components:{"minecraft:enchantments":{levels:{"nce:magnet":1}}}}}] feet if block ^ ^ ^0.5 #air run tp ^ ^ ^0.5

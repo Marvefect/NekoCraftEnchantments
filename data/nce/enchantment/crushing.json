@@ -1,40 +1,53 @@
 {
-    "description": {
-      "translate": "enchantment.nce.crushing",
-      "fallback": "Crushing"
-    },
-    "supported_items": "#minecraft:axes",
-    "primary_items": "#minecraft:axes",
-    "exclusive_set": "nce:fast_swing",
-    "weight": 5,
-    "max_level": 2,
-    "min_cost": {
-      "base": 6,
-      "per_level_above_first": 3
-    },
-    "max_cost": {
-      "base": 21,
-      "per_level_above_first": 3
-    },
-    "anvil_cost": 1,
-    "slots": [
-      "hand"
-    ],
- "effects": {
-    "minecraft:post_attack": [
+  "description": {
+    "translate": "enchantment.nce.crushing",
+    "fallback": "Crushing"
+  },
+  "exclusive_set": "nce:fast_swing",
+  "supported_items": "#minecraft:axes",
+  "primary_items": "#minecraft:axes",
+  "weight": 5,
+  "max_level": 2,
+  "min_cost": {
+    "base": 6,
+    "per_level_above_first": 3
+  },
+  "max_cost": {
+    "base": 21,
+    "per_level_above_first": 3
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "hand"
+  ],
+  "effects": {
+    "minecraft:attributes": [
       {
-        "enchanted": "attacker",
-        "affected": "victim",
-        "effect": {
-          "type": "minecraft:change_item_damage",
-          "amount": {
-            "type": "minecraft:linear",
-            "base": 2,
-            "per_level_above_first": 2
-          }
-        }
+        "id": "crushing1",
+        "attribute": "minecraft:attack_knockback",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.15,
+          "per_level_above_first": 0.15
+        },
+        "operation": "add_multiplied_base"
+      },
+      {
+        "id": "crushing2",
+        "attribute": "minecraft:attack_damage",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 3,
+          "per_level_above_first": 3
+        },
+        "operation": "add_value"
+      },
+      {
+        "id": "crushing3",
+        "attribute": "minecraft:attack_speed",
+        "amount": -0.2,
+        "operation": "add_multiplied_base"
       }
     ]
   }
 }
-  

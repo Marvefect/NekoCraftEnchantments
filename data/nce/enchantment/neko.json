@@ -27,7 +27,7 @@
             "condition": "entity_properties",
             "entity": "this",
             "predicate": {
-                "periodic_tick": 1200
+                "periodic_tick": 12000
             }
         }
       }
