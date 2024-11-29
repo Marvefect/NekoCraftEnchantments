@@ -7,7 +7,7 @@
   "supported_items": "#minecraft:axes",
   "primary_items": "#minecraft:axes",
   "weight": 5,
-  "max_level": 2,
+  "max_level": 1,
   "min_cost": {
     "base": 6,
     "per_level_above_first": 3
@@ -18,35 +18,17 @@
   },
   "anvil_cost": 1,
   "slots": [
-    "mainhand"
+    "hand"
   ],
   "effects": {
-    "minecraft:attributes": [
+    "minecraft:post_attack": [
       {
-        "id": "crushing1",
-        "attribute": "minecraft:attack_knockback",
-        "amount": {
-          "type": "minecraft:linear",
-          "base": 0.15,
-          "per_level_above_first": 0.15
-        },
-        "operation": "add_multiplied_base"
-      },
-      {
-        "id": "crushing2",
-        "attribute": "minecraft:attack_damage",
-        "amount": {
-          "type": "minecraft:linear",
-          "base": 3,
-          "per_level_above_first": 3
-        },
-        "operation": "add_value"
-      },
-      {
-        "id": "crushing3",
-        "attribute": "minecraft:attack_speed",
-        "amount": -0.2,
-        "operation": "add_multiplied_base"
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "nce:enchants/crushing"
+        }
       }
     ]
   }
